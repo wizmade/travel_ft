@@ -1,0 +1,31 @@
+
+
+.chat_box{padding:3px 20px;padding-top:15px;min-height:600px;}
+.chat_box .listAcom{text-align:left;width:100%;height:65px;padding-bottom:5px;}
+.chat_box .listAcom img{width:45px;height:45px;float:left;border-radius:50%;}
+.chat_box .listAcom .content{width:75%;height:45px;float:left;padding:10px;margin-right:0px;}
+.chat_box .listAcom .content .title{line-height:15px;font-size:14px;}
+.chat_box .listAcom .content .loc{line-height:13px;color:#ddd;}
+
+.NoneAcom{margin-top:60%;}
+.NoneAcom p {font-size:16px;margin-bottom:20px;}
+.NoneAcom .link {font-size:15px;padding:5px 10px;background-color:#61cebe;color:#fff;line-height:15px;margin-top:20px;}
+.update_box .ac_img{display:none;}
+.ac_photo{width:100%;margin-bottom:10px;}
+.send_box{width:100%;height:60px;position:fixed;bottom:0px;max-width:650px;border-top:1px solid #eee;}
+.send_box .content{width:80%;float:left;height:58px;border:none;padding:5px;}
+.send_box .bnt{width:20%;float:left;height:60px;border:none;background-color: #E7380D;color:#fff;font-size:15px;font-weight:500;}
+.chat_layout{position:relative;z-index:110;background-color:#fff;}
+.chat_layout.head{width:100%;height:50px;border-bottom:1px solid #eee;text-align:center;float:left;line-height:50px;}
+.chat_layout .head .title{width:70%;height:50px;border-bottom:1px solid #eee;text-align:center;float:left;font-size:16px;}
+.chat_layout .head .side{width:15%;;height:50px;border-bottom:1px solid #eee;text-align:center;float:left;}
+
+.chatting_box{position:absolute;top:50px;width:100%;padding:10px;overflow-y:scroll;height:81%;}
+.chatting_box .ch_msg{font-size:13px;padding-bottom:7px;font-weight:500;width:100%;min-height:30px;height:auto;overflow-y:hidden;position:relative;}
+.chatting_box .ch_msg .chatText{color:#444;overflow-x:hidden;border-radius:10px;word-break:break-all;padding:7px;max-width:70%;float:left;}
+
+.chatting_box .ch_msg .right{text-align:left;background-color:rgb(243, 103, 69);color:#fff;;float:right;}
+.chatting_box .ch_msg .left{text-align:left;float:left;background-color:#f3f3f3;margin-left:45px;}
+.chatting_box .ch_msg .chatImg{text-align:left;background-color:#fff;width:100%;height:20px;position:relative;}
+.chatting_box .ch_msg .chatImg img{position:absolute;left:0px;top:0px;;width:40px;height:40px;border-radius:5px;}
+.chatting_box .ch_msg .chatImg span{margin-left:45px;}
